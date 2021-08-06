@@ -28,4 +28,5 @@
     │  └──validation
     ├──App.tsx
     ├──App.css
-    └──.env# react-seed
+    └──.env
+```
