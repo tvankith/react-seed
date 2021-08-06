@@ -30,3 +30,10 @@
     ├──App.css
     └──.env
 ```
+
+## Plugin Recommendation
+  * redux
+  * redux-saga
+  * redux-logger
+  * formik
+  * @reduxjs/toolkit
