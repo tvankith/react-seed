@@ -1,0 +1,129 @@
+.main-container {
+  //   background: #435ebe !important;
+}
+.sidebar-profile {
+  height: 80px;
+  @media (min-width: 640px) {
+    border-bottom-width: 1px;
+  }
+}
+.topbar-profile {
+  // border-top: 0.5px solid;
+  @media (max-width: 640px) {
+    height: 35px;
+    border-bottom-width: 1px;
+    border-color: #edf0f9;
+    margin-top: 1rem;
+    // padding-left: .4rem;
+    // padding-right: .4rem;
+  }
+  @media (min-width: 640px) {
+    min-height: 80px;
+  }
+}
+.menu-card {
+  // border: 1px solid #dedede;
+  box-sizing: border-box;
+  border-radius: 9px;
+  // background: #ffffff;
+  margin: 0px;
+  margin-top: 20px;
+  width: 67%;
+  margin-left: 30px;
+  h1 {
+  }
+  svg {
+    fill: #676e8b;
+  }
+  &:hover {
+    svg {
+      fill: #ffffff;
+    }
+  }
+}
+.activeClass {
+  box-sizing: border-box;
+  color: #fff;
+  h1 {
+    color: #ffffff;
+  }
+  svg {
+    fill: #ffffff;
+  }
+}
+.menu-items {
+  overflow: auto;
+  // max-height: 20rem;
+  transition: color 0.3s ease;
+  color: rgba(0, 0, 0, 0.3);
+  &:hover {
+    color: rgba(0, 0, 0, 0.3);
+  }
+}
+// .right-col {
+//   // height: fit-content;
+//   border-top-left-radius: 25px;
+//   border-top-right-radius: 25px;
+//   @media (min-width: 768px) {
+//     border-bottom-left-radius: 25px;
+//     border-top-right-radius: 0px;
+//   }
+//   background-color: #ffffff;
+// }
+
+.side-nav,.pro-sidebar-inner {
+  border-top-right-radius: 15px !important;
+  border-bottom-right-radius: 15px !important;
+  background-color: #232323 !important;
+}
+
+
+.pro-inner-item{
+  &::before{
+    box-shadow:none !important;
+    border:none !important;
+  }
+  .pro-item-content{
+    color: white !important;
+  }
+}
+.pro-sidebar{
+  .pro-menu{
+    ul{
+      padding-top: 0 !important;
+      .pro-sub-menu{
+        .pro-inner-list-item{
+          background-color: transparent !important;
+        }
+      }
+      
+    }
+  }
+} 
+.side-nav-menu-item{
+  .pro-inner-item{
+    .pro-item-content{
+      font-size: 12px !important;
+      font-weight: 700;
+      font-family: OpenSans-Bold !important
+    }
+  }
+}
+.side-nav-sub-menu-item{
+  .pro-inner-item{
+    .pro-item-content{
+      // font-size: 16px !important;
+      font-weight: 700;
+      font-family: OpenSans-Bold !important
+    }
+  }
+}
+.pro-sidebar .pro-menu{
+  padding: 0 !important;
+  .pro-menu-item{
+    font-size: 16px !important;
+  }
+} 
+.sidenav-border{
+  border-bottom: 1px solid #4F4F4F !important;
+}

@@ -1,0 +1,7 @@
+.viveonixSearchBox{
+    border-bottom: 1px solid #E7EBF7;
+    &:focus-within {
+        border-bottom: 1px solid #3A9EA5 !important;
+    }
+}
+    
